@@ -16,7 +16,10 @@ lis.forEach((li) =>{
             div.style.display = "none";
         });
 
-        (document.getElementById(li.querySelector("a").href.slice(66))).style.display = "block";
+        console.log(li.querySelector("a").href.slice(48));
+
+        // let div = document.getElementById(li.querySelector("a").href.slice(66));
+        // div.style.display = "block";
     });
 
 });
