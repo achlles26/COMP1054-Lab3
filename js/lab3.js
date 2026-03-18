@@ -16,10 +16,8 @@ lis.forEach((li) =>{
             div.style.display = "none";
         });
 
-        console.log(li.querySelector("a").href.slice(43));
-
-        // let div = document.getElementById(li.querySelector("a").href.slice(66));
-        // div.style.display = "block";
+        let div = document.getElementById(li.querySelector("a").href.slice(43));
+        div.style.display = "block";
     });
 
 });
