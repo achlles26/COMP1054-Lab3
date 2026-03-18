@@ -16,8 +16,7 @@ lis.forEach((li) =>{
             div.style.display = "none";
         });
 
-        let div = document.getElementById(li.querySelector("a").href.slice(66));
-        div.style.display = "block";
+        (document.getElementById(li.querySelector("a").href.slice(66))).style.display = "block";
     });
 
 });
